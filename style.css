@@ -1,0 +1,144 @@
+/* common start */
+body{
+    background-color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+}
+/* common end */
+/* top-players start */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.container{
+    width: 870px;
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 21px;
+    
+   
+    
+}
+.p-h2{
+    color: #562EFF;
+    font-size: 24px;
+    margin-top: 3px;
+}
+.player-name{
+    font-size: 18px;
+
+}
+.top-palyers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap:30px;
+    margin-bottom: 30px;
+   
+    
+    
+}
+.player{
+    display: flex;
+    align-items: center;
+    
+   
+}
+.player img{
+    width: 56px;
+    height: 56px;
+    margin-right: 16px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
+}
+
+/* top-players end */
+
+/* top-blog start */
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap:26px;
+        gap: 30px;
+    }
+    .top-blogs{
+
+    }
+    .blog{
+        display: flex;
+    }
+    .thumnail{
+
+    }
+    .thumnail img{
+        width: 177px;
+        height: 117px;
+        margin-right: 16px;
+    }
+    .blog-info{
+
+    }
+    .blog-info h3{
+        font-size: 20px;
+        line-height: 35px;
+
+    }
+    .blog-info p{
+        color: gray;
+    }
+    .blog-info a{
+        text-decoration: none;
+        color: #562EFF;
+       
+    }
+  
+    
+
+/* top-blog end */
+
+/* course start */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap:30px;
+}
+.course{
+    width:252.42px;
+    background: #FFFFFF;
+    
+
+    
+}
+    .course-banner img{
+        width: 224px;
+        height: 104px;
+        
+    }
+    .course-info{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .filled{
+        color: #FFC014;
+        font-size: 12px;
+    }
+    .empty{
+        color: #AEAEAE;
+        font-size: 12px;
+    }
+    .time{
+        background: #FFE4E8;
+        border-radius: 14.6913px;
+       color: #FF4A60;
+       cursor: pointer;
+    }
+    .fa-clock{
+        background-color: #FFE4E8;
+        color: #FF4A60;
+        cursor: pointer;
+       
+    }
+/* course end */
